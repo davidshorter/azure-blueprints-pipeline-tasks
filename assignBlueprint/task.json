@@ -1,8 +1,8 @@
 {
-	"id": "35d27b4a-51dc-4eca-85a6-5635231b613d",
-	"name": "AssignBlueprint",
-	"friendlyName": "Assign Azure Blueprint",
-	"description": "Assigns an Azure Blueprint",
+	"id": "c67ff9f0-f3ab-42d8-9bf7-3a1d86c1d3fd",
+	"name": "AssignBlueprintDev",
+	"friendlyName": "Assign Azure Blueprint Dev",
+	"description": "Assigns an Azure Blueprint Dev",
 	"helpMarkDown": "",
 	"category": "Build",
 	"visibility": [
@@ -13,8 +13,8 @@
 	"author": "Neil Peterson",
 	"version": {
 		"Major": 1,
-		"Minor": 5,
-		"Patch": 6
+		"Minor": 0,
+		"Patch": 0
 	},
 	"instanceNameFormat": "Assign Azure Blueprint",
 	"inputs": [{
@@ -55,6 +55,22 @@
 		},
 		{
 			"name": "ParametersFile",
+			"type": "filePath",
+			"label": "Assignment File Path",
+			"defaultValue": "",
+			"required": false,
+			"helpMarkDown": "A JSON file containing the assignment details and parameter values."
+		},
+		{
+			"name": "Parameters",
+			"type": "filePath",
+			"label": "Assignment File Path",
+			"defaultValue": "",
+			"required": false,
+			"helpMarkDown": "Comma-delimited list of parameter key-value pairs.."
+		},
+		{
+			"name": "ResourceGroupParameters",
 			"type": "filePath",
 			"label": "Assignment File Path",
 			"defaultValue": "",
