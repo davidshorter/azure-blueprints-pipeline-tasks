@@ -12,7 +12,7 @@ Provide the necessary tooling for managing Azure Blueprints from within an Azure
 
 Cloud operators and developers who are engaged in infrastructure and governance operations using continuous deployment with Azure Pipelines.
 
-### Need
+### Customer Need
 
 The use of continuous deployment solutions is expanding to include infrastructure, policy, and other operations related tasks. 
 
@@ -40,3 +40,7 @@ Several governance-related extensions have been created for Azure Pipeline. Most
 - Create technical documentation.
 - Create an internal support agreement for the extension.
 - Create a marketing campaign including Azure Friday video, Azure blog, and Twitter campaign.
+
+## Scenarios / E2E
+
+Rebecca manages cloud operations for the retail operation Tailwind Traders. Rebeccas team deploys Azure..

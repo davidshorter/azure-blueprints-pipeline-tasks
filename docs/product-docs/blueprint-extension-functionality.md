@@ -5,6 +5,27 @@
 
 The Azure Pipeline extension for Azure Blueprints will provide native pipeline tasks for creating and assigning Azure Blueprints. With these tasks, consumers can include Blueprint deployments and updates in continuous delivery solutions.
 
+## Spec Metadata
+
+### Stakeholders and teams
+
+Rebecca Jones - tool side PM
+Jeff Smith - service side PM
+DevDiv Tools
+Azure Pipelines SDK
+Visual Studio Marketplace
+
+### Link to Azure Boards work items
+
+[Pipeline Extension for Blueprints Epix]()
+[Pipeline Extension for Blueprints Activities]()
+[Pipeline Extension for Blueprints docs]()
+
+### Other related pages
+
+[Public GitHub repository](https://github.com/neilpeterson/azure-blueprints-pipeline-tasks)
+[Product Stategy Document](./blueprint-extension-strategy.md)
+
 ## Non-Functional Requirements
 
 1. The extension must be built using PowerShell. This is due to the availability of an Azure Blueprints PowerShell module and the lack of a node SDK for Blueprints.
@@ -23,7 +44,7 @@ The Azure Pipeline extension for Azure Blueprints will provide native pipeline t
 | ID | Requirement | Complete |
 |:---|---|---|
 | 2 | I should be able to create a Blueprint at the Management Group scope. | Yes |
-| 3| I should be able to create a Blueprint at the Subscription scope. | Yes |
+| 3 | I should be able to create a Blueprint at the Subscription scope. | Yes |
 | 4 | I should be able to assign a Blueprint stored at an MG scope to a subscription. | Yes |
 | 5 | I should be able to assign a Blueprint stored at a subscription scope to the same subscription. | Yes |
 
@@ -49,19 +70,19 @@ The Azure Pipeline extension for Azure Blueprints will provide native pipeline t
 
 | ID | Requirement | Complete |
 |:---|---|---|
-| | I should be able to use Azure Pipeline hosted build agents. | Yes |
+| 14 | I should be able to use Azure Pipeline hosted build agents. | Yes |
 | [35]() | I should be able to use self-hosted build agents. | Yes |
 
 ### Blueprint Assignment
 
 | ID | Requirement | Complete |
 |:---|---|---|
-| 14 | I should be able to give the blueprint assignment a unique name | Yes |
-| 15 | I should be able to select the blueprint version for the assignment | Yes |
-| 16 | I should be able to provide a directory to the Blueprint assignment file | Yes |
-| 17 | When using the Azure Pipelines classic editor, I should be able to browse source control for the Blueprint assignment file. | Yes |
-| 18 | I should be able to pause the task while the assignment operation is being performed. | Yes |
-| 19 | During the assignment, I should be able to provide a timeout value after which the assignment fails. | Yes |
+| 15 | I should be able to give the blueprint assignment a unique name | Yes |
+| 16 | I should be able to select the blueprint version for the assignment | Yes |
+| 17 | I should be able to provide a directory to the Blueprint assignment file | Yes |
+| 18 | When using the Azure Pipelines classic editor, I should be able to browse source control for the Blueprint assignment file. | Yes |
+| 19 | I should be able to pause the task while the assignment operation is being performed. | Yes |
+| 20 | During the assignment, I should be able to provide a timeout value after which the assignment fails. | Yes |
 
 ## Wireframe (Classic and YAML)
 
