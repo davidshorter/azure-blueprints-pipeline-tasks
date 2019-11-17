@@ -12,7 +12,7 @@ Provide the necessary tooling for managing Azure Blueprints from within an Azure
 
 Cloud operators and developers who are engaged in infrastructure and governance operations using continuous deployment with Azure Pipelines.
 
-### Customer Need
+### Customer need
 
 The use of continuous deployment solutions is expanding to include infrastructure, policy, and other operations related tasks. 
 
@@ -20,7 +20,7 @@ Currently, Azure Blueprints have two interfaces, the Azure Portal and a PowerShe
 
 Providing a native Azure Pipeline activity for preforming Blueprint deployments enables anyone, regardless of scripting knowledge, to build and use deployment pipelines that include Azure Blueprints.
 
-### Competiton and Differentiation
+### Competiton and differentiation
 
 Several governance-related extensions have been created for Azure Pipeline. Most of these are sourced from hobbyists and community members. This extension will be fully supported and updated by Microsoft full-time employees.
 

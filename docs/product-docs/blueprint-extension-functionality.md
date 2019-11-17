@@ -18,12 +18,15 @@ Visual Studio Marketplace
 ### Link to Azure Boards work items
 
 [Pipeline Extension for Blueprints Epix]()
+
 [Pipeline Extension for Blueprints Activities]()
+
 [Pipeline Extension for Blueprints docs]()
 
 ### Other related pages
 
 [Public GitHub repository](https://github.com/neilpeterson/azure-blueprints-pipeline-tasks)
+
 [Product Stategy Document](./blueprint-extension-strategy.md)
 
 ## Non-Functional Requirements
